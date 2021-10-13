@@ -70,18 +70,19 @@ li>a, .white-text{
     font-size:20px;
 }
 
+.btn{
+    border: 1px solid none;
+    border-radius: 25px
+}
+
 .white-button{
     background-color: white;
-    color: black;
-    border: 1px solid none;
-    border-radius: 24%;
+    color: black;    
 }
 
 .dark-button{
     background-color: black;
-    color: white;
-    border: 1px solid none;
-    border-radius: 24%;
+    color: white; 
 }
 
 .small-button{
@@ -148,5 +149,23 @@ h2.title{
 .p-second-container{
     width: 70%;
     margin: auto;
+    font-size: 25px;
 }
 
+.star-title{
+    text-align: center;
+    font-size: 40px;
+    background-image:url(../img/stars.svg);
+}
+
+.star-container{
+    width: 30%;
+    margin: auto;
+}
+
+a>.download-button{
+    width: 100%;
+    margin: auto;
+    text-align:center;
+    background-color: #8ea1e1;
+}
