@@ -156,16 +156,53 @@ h2.title{
     text-align: center;
     font-size: 40px;
     background-image:url(../img/stars.svg);
+    margin-bottom: 40px;
 }
 
 .star-container{
-    width: 30%;
+    width: 35%;
     margin: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-a>.download-button{
-    width: 100%;
-    margin: auto;
-    text-align:center;
+.blue-button{
     background-color: #8ea1e1;
+    width: 10%;
+    margin: auto;
+    padding: 10px 15px;
+    font-size: 20px;
+    margin-bottom: 150px;
+}
+
+.bottom-container{
+    background-color: #23272a;
+    height: 700px;
+}
+
+.footer-layout{
+    margin-top: 100px;
+}
+
+.social{
+    width: 30%;
+    background-color: chocolate;
+    height: 200px;
+}
+
+.product, .company, .resource, .normative{
+    width: 17.5%;
+    background-color: chartreuse;
+    height: 200px;
+}
+
+.italian-flag{
+    height: 20px;
+    width: auto;
+    vertical-align: middle;
+}
+
+.fab{
+    height: 15px;
+    width: 15px;
 }
