@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Whitney, sans-serif;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.container{
+    width: 70%;
+    margin: auto;
+    background-color: red;
+    text-align: center;
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+    padding: 13px 15px;
+}
+
+.col{
+    float: left;
+}
+
+.left, .right{
+    width: 10%;
+    background-color: royalblue;
+    height: 50px;
+}
+
+.center{
+    width: 80%;
+    background-color: seagreen;
+    height: 50px;
+}
+
+header{
+    height: 100px;
+    background-color:orange;
+}
